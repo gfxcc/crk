@@ -2,7 +2,7 @@
 #include <string>
 #include <fstream>
 #include <vector>
-#include <crk/crk.h>
+#include "crk/crk.h"
 
 using namespace std;
 using namespace crk;

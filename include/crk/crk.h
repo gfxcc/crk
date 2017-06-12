@@ -10,9 +10,6 @@
 #include <utility>
 #include <memory>
 
-#include <ltp/segment_dll.h>
-#include <ltp/postag_dll.h>
-
 namespace crk {
 
 struct Options {
@@ -24,6 +21,8 @@ struct Options {
 struct Status {
   int ret;
   std::string msg;
+
+  bool ok() { return ret == 0; }
 };
 
 class Trie;
