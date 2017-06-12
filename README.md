@@ -3,6 +3,21 @@
 **crk** is an open source library which used to extract region tags
 from chinese nature language
 
+# Motivation
+To create a library generate region tags from chinese nature language
+[arbitrary chinese words] -> [ processed by CRK] -> [organized region tags]
+"魅族集团位于广东省珠海市，我们的员工有来自河北，上海，四川成都的。"
+
+              |
+	     [CRK]
+	      |
+{
+1."xxxxxx":"广东省", "xxxxxx":"珠海市"
+2."xxxxxx":"四川省", "xxxxxx":"成都市"
+3."xxxxxx":"上海市"
+4."xxxxxx":"河北省"
+}
+
 **crk** relies on [LTP](https://github.com/HIT-SCIR/ltp) and [中国行政区划信息](https://github.com/gfxcc/data_location)
 
 # Build
