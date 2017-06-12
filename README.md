@@ -89,6 +89,10 @@ Please check details in `example/sample.cc`
 
 ```
 
+# Projects built on CRK
+
+* [wechat_location_analyze_tool](https://github.com/gfxcc/wechat_location_analyze_tool)
+
 # TODO
 Analyzing multiple regions code and generating organized tags
 
