@@ -6,6 +6,7 @@ from chinese nature language
 # Motivation
 To create a library generate region tags from chinese nature language
 [arbitrary chinese words] -> [ processed by CRK] -> [organized region tags]
+```
 "魅族集团位于广东省珠海市，我们的员工有来自河北，上海，四川成都的。"
 
               |
@@ -17,6 +18,7 @@ To create a library generate region tags from chinese nature language
 3."xxxxxx":"上海市"
 4."xxxxxx":"河北省"
 }
+```
 
 **crk** relies on [LTP](https://github.com/HIT-SCIR/ltp) and [中国行政区划信息](https://github.com/gfxcc/data_location)
 
