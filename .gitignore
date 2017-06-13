@@ -1,5 +1,2 @@
-CMakeCache.txt
-CMakeFiles
-cmake_install.cmake
-Makefile
-/lib/
+lib/
+build/

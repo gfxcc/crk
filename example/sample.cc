@@ -16,6 +16,10 @@ int main() {
   options.region_data = "../region_data/";
   Status s = Engine::CreateEngine(options, &engine);
 
+  if (s.ok() == false) {
+    cout << "Error: failed to create crk engine" << endl;
+    return 0;
+  }
   //
   ifstream input("./input.txt");
   string line;

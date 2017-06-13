@@ -34,7 +34,7 @@ public:
   Engine() { }
   virtual ~Engine();
 
-  // regions return matched region code pair <region_name, region_code>
+  // regions return matched region code pair <region_code, region_name>
   // multiple region might be matched, so the regions was organizaed
   // by two dimensional vector
   int MatchRegion(const std::string& input,
