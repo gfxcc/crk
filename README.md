@@ -4,7 +4,7 @@
 from chinese nature language
 
 # Motivation
-To create a library generate region tags from chinese nature language
+To create a library generate region tags from chinese nature language  
 [arbitrary chinese words] -> [ processed by CRK] -> [organized region tags]
 ```
 "魅族集团位于广东省珠海市，我们的员工有来自河北，上海，四川成都的。"
@@ -35,8 +35,9 @@ make
 
 # Models
 To use [LTP](https://github.com/HIT-SCIR/ltp), we need models.  
->1. [baidu](https://pan.baidu.com/share/link?shareid=1988562907&uk=2738088569)
->2. [...](...)
+>1. [google drive](https://drive.google.com/open?id=0B8UsRQrcHrgGaDZtSmxCMjhXczg)
+>2. [baidu](https://pan.baidu.com/share/link?shareid=1988562907&uk=2738088569)
+
 
 
 # Usage
