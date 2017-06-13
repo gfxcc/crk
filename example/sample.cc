@@ -11,9 +11,9 @@ int main() {
 
   Engine* engine;
   Options options;
-  options.model_segmentor = "../thirdparty/ltp/models/cws.model";
-  options.model_postagger = "../thirdparty/ltp/models/pos.model";
-  options.region_data = "../region_data/";
+  options.model_segmentor = "/home/yong/Program/project/crk/thirdparty/ltp/models/cws.model";
+  options.model_postagger = "/home/yong/Program/project/crk/thirdparty/ltp/models/pos.model";
+  options.region_data = "/home/yong/Program/project/crk/region_data/";
   Status s = Engine::CreateEngine(options, &engine);
 
   if (s.ok() == false) {
@@ -21,7 +21,7 @@ int main() {
     return 0;
   }
   //
-  ifstream input("./input.txt");
+  ifstream input("/home/yong/Program/project/crk/example/input.txt");
   string line;
   while (getline(input, line)) {
 
