@@ -1,7 +1,7 @@
 # CRK - Chinese Region Kit
 
 **crk** is an open source library which used to extract region tags
-from chinese nature language
+from chinese nature language 
 
 # Motivation
 To create a library generate region tags from chinese nature language  
